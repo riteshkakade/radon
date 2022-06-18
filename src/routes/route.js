@@ -17,7 +17,7 @@ router.post("/createBook", BookController.createBook  )
 
 
 
-// router.post("/createUser", UserController.createUser  )
+ router.post("/createUser", UserController.createUser  )
 // router.get("/getUsersData", UserController.getUsersData)
 
 
@@ -48,7 +48,7 @@ router.post("/createBook", BookController.createBook  )
 
 
 
-router.get("/basicRoute", commonMW.mid1, commonMW.mid2, commonMW.mid3, commonMW.mid4, UserController.basicCode)
+//router.get("/basicRoute", commonMW.mid1, commonMW.mid2, commonMW.mid3, commonMW.mid4, UserController.basicCode)
 
 
 
